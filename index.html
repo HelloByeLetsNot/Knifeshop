@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Knives</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=AXBcKDIeJf4hvoFEZPd3aysHTdK_vKvIU6v0gCy8SB4TOkzfoDM5zjdu4KtND_tQw_-xAJrEO8chA8SF"></script>
+    <script src="gallery.js" defer></script>
+    <script src="services.js" defer></script>
+    <script src="shop.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#shop">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="gallery">
+            <div class="gallery-container" id="gallery-container">
+                <!-- Gallery slides will be dynamically inserted here -->
+            </div>
+            <div class="gallery-text" id="gallery-text"></div>
+        </section>
+        <section id="about">
+            <h1>About Rural Knives</h1>
+            <p>Welcome to Rural Knives! We specialize in high-quality knife sharpening services and sales. Our mission is to provide top-notch products and services to our customers. Whether you need a new knife or want to restore an old one, we are here to help.</p>
+        </section>
+        <section id="services">
+            <h2>Our Sharpening Services</h2>
+            <div class="slider-container">
+                <div id="service-slider" class="slider">
+                    <div class="slider-inner" id="service-list"></div>
+                </div>
+            </div>
+        </section>
+        <section id="shop">
+            <h2>Items for Sale</h2>
+            <div class="slider-container">
+                <div id="shop-slider" class="slider">
+                    <div class="slider-inner" id="knife-list"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

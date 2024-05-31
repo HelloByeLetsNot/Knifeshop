@@ -1,0 +1,19 @@
+{
+    "gallery": [
+        {
+            "id": 1,
+            "description": "Classic Hunting Knife",
+            "image": "images/gallery1.jpg"
+        },
+        {
+            "id": 2,
+            "description": "Folding Pocket Knife",
+            "image": "images/gallery1.jpg"
+        },
+        {
+            "id": 3,
+            "description": "Chef's Knife",
+            "image": "images/gallery1.jpg"
+        }
+    ]
+}

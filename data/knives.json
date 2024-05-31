@@ -1,0 +1,74 @@
+{
+    "knives": [
+        {
+            "id": 1,
+            "name": "Classic Hunting Knife",
+            "description": "A reliable hunting knife with a wooden handle.",
+            "price": 75.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Folding Pocket Knife",
+            "description": "A compact folding knife for everyday use.",
+            "price": 45.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Chef's Knife",
+            "description": "A versatile chef's knife for all your kitchen needs.",
+            "price": 95.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Survival Knife",
+            "description": "A durable knife designed for outdoor survival.",
+            "price": 85.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Pocket Knife",
+            "description": "A small and convenient pocket knife.",
+            "price": 30.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Tactical Knife",
+            "description": "A tactical knife with a strong grip.",
+            "price": 110.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Throwing Knife Set",
+            "description": "A set of three balanced throwing knives.",
+            "price": 60.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Carving Knife",
+            "description": "A precision knife for carving meat.",
+            "price": 70.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Utility Knife",
+            "description": "A multipurpose utility knife.",
+            "price": 55.00,
+            "image": "images/knife.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Fillet Knife",
+            "description": "A flexible knife for filleting fish.",
+            "price": 40.00,
+            "image": "images/knife.jpg"
+        }
+    ]
+}

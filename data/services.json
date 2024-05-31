@@ -1,0 +1,32 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Basic Knife Sharpening",
+            "price": 10.00,
+            "beforeImage": "images/before-after/service1-before.jpg",
+            "afterImage": "images/before-after/service1-after.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Advanced Knife Sharpening",
+            "price": 20.00,
+            "beforeImage": "images/before-after/service2-before.jpg",
+            "afterImage": "images/before-after/service2-after.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Saw Sharpening",
+            "price": 15.00,
+            "beforeImage": "images/before-after/service3-before.jpg",
+            "afterImage": "images/before-after/service3-after.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Scissor Sharpening",
+            "price": 12.00,
+            "beforeImage": "images/before-after/service4-before.jpg",
+            "afterImage": "images/before-after/service4-after.jpg"
+        }
+    ]
+}

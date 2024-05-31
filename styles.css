@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  text-align: center;
+}
+
+section {
+  min-height: 100vh; /* Ensure each section takes up the full page */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#gallery {
+  background-color: #f5f5f5;
+  position: relative;
+  text-align: center;
+}
+
+.gallery-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.gallery-slide {
+  position: absolute;
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.gallery-text {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.gallery-slide.active {
+  opacity: 1;
+}
+
+#about, #services, #shop {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-inner {
+  display: flex;
+}
+
+.service-item, .knife-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  flex: 0 0 auto;
+  margin: 0 10px;
+  scroll-snap-align: center;
+}
+
+.service-item img, .knife-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.before-after {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-now {
+  margin-top: 10px;
+}
